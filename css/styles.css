@@ -26,9 +26,6 @@ img {
 h1,
 h2,
 h3,
-h4,
-h5,
-h6,
 p {
   margin: 0;
 }
@@ -187,7 +184,7 @@ h2 {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-/**-----------------Mob menu--------------*/
+/**-----------------MOB MENU--------------*/
 .mob-menu {
   width: 100%;
   height: 100vh;
@@ -291,9 +288,9 @@ h2 {
 .mob-link:focus {
   background-color: #31d0aa;
 }
-/**--------------------Main block----------------*/
-/**--------------------Title----------------*/
-.title {
+
+/**--------------------HERO----------------*/
+.hero {
   /* padding-top: 188px;
   padding-bottom: 188px; */
   padding: 72px 16px;
@@ -310,7 +307,7 @@ h2 {
   background-repeat: no-repeat;
 }
 @media screen and (min-resolution: 192dpi) {
-  .title {
+  .hero {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
@@ -318,7 +315,7 @@ h2 {
       url(../images/main-backgraund-mob-x2.jpg);
   }
 }
-.title-main {
+.title-hero {
   color: #fff;
   text-align: center;
   /* font-size: 56px; */
@@ -361,7 +358,7 @@ h2 {
   justify-content: center;
   align-items: center;
 }
-/**--------------------Achievement---------------*/
+/**--------------------FEATURES---------------*/
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -374,8 +371,7 @@ h2 {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-.achv {
-}
+
 .achievement-ul {
   display: flex;
   flex-wrap: wrap;
